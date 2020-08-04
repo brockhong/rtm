@@ -20,15 +20,15 @@ div,p{
 
 
 
-<img src="cssdiv1.png" alt="image-20200723143506796" style="zoom:50%;" />
+<img src="images/cssdiv1.png" align=center style="zoom:50%;" />
 
 div p  <div>元素内部的所有<p> 
 
-<img src="image-20200724085453981.png" alt="image-20200724085453981" style="zoom:50%;" />
+<img src="images/image-20200724085453981.png"  align=center alt="image-20200724085453981" style="zoom:50%;" />
 
 div>p 父元素为 <div> 的所有 <p>
 
-<img src="image-20200724085453981.png" alt="image-20200724085453981" style="zoom:50%;" />
+<img src="images/image-20200724085453981.png"  align=center alt="image-20200724085453981" style="zoom:50%;" />
 
 div+p 选择紧接在 <div> 元素之后的所有 <p> 元素
 
@@ -47,7 +47,7 @@ div+p{
     <p>end</p>
 ```
 
-<img src="image-20200724090530891.png" alt="image-20200724090530891" style="zoom:50%;" />
+<img src="images/image-20200724090530891.png"  align=center alt="image-20200724090530891" style="zoom:50%;" />
 
 :first-letter	元素首个字母
 :first-line       元素首行
@@ -64,7 +64,7 @@ p:first-child{
 
 
 
-<img src="image-20200724093152686.png" style="zoom:50%;" />
+<img src="images/image-20200724093152686.png"  align=center style="zoom:50%;" />
 
 body 的第一个<p>子元素top ,div 的第一个元素 P1。
 
@@ -87,7 +87,7 @@ p~ul{ background-color: blue;}
  </div>
 ```
 
-<img src="image-20200724094332194.png" alt="image-20200724094332194" style="zoom:50%;" />
+<img src="images/image-20200724094332194.png"  align=center alt="image-20200724094332194" style="zoom:50%;" />
 
 :nth-child(n)	p:nth-child(2)	选择属于其父元素的第二个子元素的每个 <p> 元素。	
 
@@ -116,7 +116,7 @@ p~ul{ background-color: blue;}
     </div>
 ```
 
-<img src="image-20200724140305774.png" alt="image-20200724140305774" style="zoom:50%;" />
+<img src="images/image-20200724140305774.png"  align=center alt="image-20200724140305774" style="zoom:50%;" />
 
 body 的第二个子元素 top ，div 的第二个子元素p2 背景为red
 
@@ -130,7 +130,7 @@ body 的第二个子元素 top ，div 的第二个子元素p2 背景为red
 
 
 
-<img src="image-20200724142530209.png" alt="image-20200724142530209" style="zoom:50%;" />
+<img src="images/image-20200724142530209.png"  align=center alt="image-20200724142530209" style="zoom:50%;" />
 
 **不加前面的div 会把 body 也算上元素**
 
@@ -138,7 +138,7 @@ body 的第二个子元素 top ，div 的第二个子元素p2 背景为red
 
 :nth-of-type(n)		选择属于其父元素第二个 <p> 元素的每个 <p> 元素。
 
-<img src="image-20200724143756470.png" alt="image-20200724143756470" style="zoom:50%;" />
+<img src="images/image-20200724143756470.png"  align=center alt="image-20200724143756470" style="zoom:50%;" />
 
 body的中的第二个<p> 元素 next , div中的第二个<p>  元素 p2
 
@@ -150,7 +150,7 @@ body的中的第二个<p> 元素 next , div中的第二个<p>  元素 p2
 
 
 
-<img src="image-20200724150005663.png" alt="image-20200724150005663" style="zoom:50%;" />
+<img src="images/image-20200724150005663.png"  align=center alt="image-20200724150005663" style="zoom:50%;" />
 
 
 
@@ -158,7 +158,7 @@ body的中的第二个<p> 元素 next , div中的第二个<p>  元素 p2
 
 
 
-<img src="image-20200724150655645.png" alt="image-20200724150655645" style="zoom:50%;" />
+<img src="images/image-20200724150655645.png"  align=center alt="image-20200724150655645" style="zoom:50%;" />
 
 不计算body ， 父元素中最后一个元素<p>
 
@@ -170,35 +170,35 @@ body的中的第二个<p> 元素 next , div中的第二个<p>  元素 p2
 
 1、:nth-child(5) 选取第五个标签
 
-![img](1442391-20180831154453760-105496562.png)
+![img](images/1442391-20180831154453760-105496562.png)
 
 2、:nth-child(n+3) 选取大于等于3的标签
 
-![img](1442391-20180831154724339-1384357341.png)
+![img](images/1442391-20180831154724339-1384357341.png)
 
 3、:nth-child(-n+3) 选取小于等于3的标签
 
-![img](1442391-20180831154920660-1192984006.png)
+![img](images/1442391-20180831154920660-1192984006.png)
 
 4、:nth-child(2n) 选取偶数标签，等同于:nth-child(even)
 
-![img](1442391-20180831155122740-1480252761.png)
+![img](images/1442391-20180831155122740-1480252761.png)
 
 5、:nth-child(2n-1) 选取奇数标签，等同于:nth-child(odd)
 
-![img](1442391-20180831155330398-201533064.png)
+![img](images/1442391-20180831155330398-201533064.png)
 
 6、:nth-child(3n+1) 每隔两个元素选取一个
 
-![img](1442391-20180831155501359-1375398252.png)
+![img](images/1442391-20180831155501359-1375398252.png)
 
 7、:last-child 选取倒数第一个
 
-![img](1442391-20180831155931087-1973090871.png)
+![img](images/1442391-20180831155931087-1973090871.png)
 
 8、:nth-last-child(3) 选取倒数第三个
 
-![img](1442391-20180831160046040-1719332621.png)
+![img](images/1442391-20180831160046040-1719332621.png)
 
 
 
@@ -418,7 +418,7 @@ transition的优点在于简单易用，但是它有几个很大的局限。
 3. 理清选择器前后两个的元素关系
 4. 哪个元素的样式会发生改变，过渡效果就加到该元素上。
 
-<img src="image-20200731132249838.png" alt="image-20200731132249838" style="zoom:50%;" />
+<img src="images/image-20200731132249838.png"  align=center alt="image-20200731132249838" style="zoom:50%;" />
 
 ```
 <style>
@@ -660,7 +660,7 @@ content的值  "" 、字符串、attr() 、url() 、uri() 、counter()等
 
 
 
-<img src="image-20200731151046824.png" alt="image-20200731151046824" style="zoom:50%;" />
+<img src="images/image-20200731151046824.png"  align=center alt="image-20200731151046824" style="zoom:50%;" />
 
 ##### attr() 以及 url()
 
@@ -681,7 +681,7 @@ url() 可以应用媒体文件 （图片），content 图片不能设置大小�
 <a href="http://baidu.com">before </a>
 ```
 
-<img src="image-20200731160503792.png" alt="image-20200731160503792" style="zoom:50%;" />
+<img src="images/image-20200731160503792.png"  align=center alt="image-20200731160503792" style="zoom:50%;" />
 
 #### counter 计数器
 
@@ -732,7 +732,7 @@ body {
 
 
 
-<img src="image-20200731162347692.png" alt="image-20200731162347692" style="zoom:30%;" />
+<img src="images/image-20200731162347692.png"  align=center alt="image-20200731162347692" style="zoom:30%;" />
 
 ### 边框
 
@@ -875,7 +875,7 @@ direction 角度
 
 综合例子 流光按钮：
 
-<img src="image-20200731170916606.png" alt="image-20200731170916606" style="zoom:30%;" />
+<img src="images/image-20200731170916606.png"  align=center alt="image-20200731170916606" style="zoom:30%;" />
 
 ```
 <style>
@@ -979,7 +979,7 @@ direction 角度
 
 
 
-<img src="image-20200803142300170.png" alt="image-20200803142300170" style="zoom:50%;" />
+<img src="images/image-20200803142300170.png"  align=center alt="image-20200803142300170" style="zoom:50%;" />
 
 flex ：box2 不随着子元素变化 100% 撑满屏幕 
 
@@ -999,7 +999,7 @@ flex ：box2 不随着子元素变化 100% 撑满屏幕
     </div> 
 ```
 
-<img src="image-20200803141939746.png" alt="image-20200803141939746" style="zoom:50%;" />
+<img src="images/image-20200803141939746.png"  align=center alt="image-20200803141939746" style="zoom:50%;" />
 
 inline-flex ：box2 随着 m-1 ... m-5 的宽高自适应
 
@@ -1019,19 +1019,19 @@ inline-flex ：box2 随着 m-1 ... m-5 的宽高自适应
 
 row :子元素排成一行
 
-<img src="image-20200803135553429.png" alt="image-20200803135553429" style="zoom:50%;" />
+<img src="images/image-20200803135553429.png"  align=center alt="image-20200803135553429" style="zoom:50%;" />
 
 row-reverse ：子元素倒序排成一行
 
-<img src="image-20200803135413119.png" alt="image-20200803135413119" style="zoom:50%;" />
+<img src="images/image-20200803135413119.png"  align=center alt="image-20200803135413119" style="zoom:50%;" />
 
 column：子元素排成一列
 
-<img src="image-20200803135945763.png" alt="image-20200803135945763" style="zoom:50%;" />
+<img src="images/image-20200803135945763.png"  align=center alt="image-20200803135945763" style="zoom:50%;" />
 
 column-reverse ：子元素倒序排成一列
 
-<img src="image-20200803135859939.png" alt="image-20200803135859939" style="zoom:50%;" />
+<img src="images/image-20200803135859939.png"  align=center alt="image-20200803135859939" style="zoom:50%;" />
 
 #### flexbox 对齐
 
@@ -1055,23 +1055,23 @@ column-reverse ：子元素倒序排成一列
 
 flex-start:  子元素在容器中左对齐 默认
 
-<img src="image-20200803172153147.png" alt="image-20200803172153147" style="zoom:50%;" />
+<img src="images/image-20200803172153147.png" alt="image-20200803172153147" style="zoom:50%;" />
 
 flex-end: 子元素在容器中右对齐
 
-<img src="image-20200803172032436.png" alt="image-20200803172032436" style="zoom:50%;" />
+<img src="images/image-20200803172032436.png" alt="image-20200803172032436" style="zoom:50%;" />
 
 center: 子元素聚集在中间排列
 
-<img src="image-20200803171616646.png" alt="image-20200803171616646" style="zoom:50%;" />
+<img src="images/image-20200803171616646.png" alt="image-20200803171616646" style="zoom:50%;" />
 
 space-between: 两个元素有间隔排列，撑满容器
 
-<img src="image-20200803171059098.png" alt="image-20200803171059098" style="zoom:50%;" />
+<img src="images/image-20200803171059098.png" alt="image-20200803171059098" style="zoom:50%;" />
 
 space-around: 每个子元素间隔间距左右16px，包括容器
 
-<img src="image-20200803171342851.png" alt="image-20200803171342851" style="zoom:50%;" />
+<img src="images/image-20200803171342851.png" alt="image-20200803171342851" style="zoom:50%;" />
 
 
 
@@ -1085,7 +1085,7 @@ nowrap:(默认显示)  单行显示
 
 wrap: 多行显示，子元素会溢出容器
 
-<img src="image-20200803173530576.png" alt="image-20200803173530576" style="zoom:50%;" />
+<img src="images/image-20200803173530576.png" alt="image-20200803173530576" style="zoom:50%;" />
 
 ```css
    .step4{
@@ -1130,15 +1130,15 @@ flex-end 交叉轴终点对齐 ，左下角对齐
 
 center 交叉轴中点对齐，容器垂直居中对齐
 
-<img src="image-20200803175925769.png" alt="image-20200803175925769" style="zoom:50%;" />
+<img src="images/image-20200803175925769.png" alt="image-20200803175925769" style="zoom:50%;" />
 
 baseline 项目第一行文字的基线对齐
 
-<img src="image-20200803175859619.png" alt="image-20200803175859619" style="zoom:50%;" />
+<img src="images/image-20200803175859619.png" alt="image-20200803175859619" style="zoom:50%;" />
 
 stretch  默认 如果项目未设置高度或设置为auth  ，将占满整个容器
 
-<img src="image-20200803175804543.png" alt="image-20200803175804543" style="zoom:50%;" />
+<img src="images/image-20200803175804543.png" alt="image-20200803175804543" style="zoom:50%;" />
 
 
 
@@ -1201,7 +1201,7 @@ align-self: auto|stretch|center|flex-start|flex-end|baseline|initial|inherit;
     }
 ```
 
-<img src="image-20200804085649159.png" alt="image-20200804085649159" style="zoom:50%;" />
+<img src="images/image-20200804085649159.png" alt="image-20200804085649159" style="zoom:50%;" />
 
 
 
