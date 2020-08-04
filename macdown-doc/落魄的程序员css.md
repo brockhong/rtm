@@ -170,35 +170,35 @@ body的中的第二个<p> 元素 next , div中的第二个<p>  元素 p2
 
 1、:nth-child(5) 选取第五个标签
 
-![img](D:\work1\macdown-doc\1442391-20180831154453760-105496562.png)
+![img](1442391-20180831154453760-105496562.png)
 
 2、:nth-child(n+3) 选取大于等于3的标签
 
-![img](D:\work1\macdown-doc\1442391-20180831154724339-1384357341.png)
+![img](1442391-20180831154724339-1384357341.png)
 
 3、:nth-child(-n+3) 选取小于等于3的标签
 
-![img](D:\work1\macdown-doc\1442391-20180831154920660-1192984006.png)
+![img](1442391-20180831154920660-1192984006.png)
 
 4、:nth-child(2n) 选取偶数标签，等同于:nth-child(even)
 
-![img](D:\work1\macdown-doc\1442391-20180831155122740-1480252761.png)
+![img](1442391-20180831155122740-1480252761.png)
 
 5、:nth-child(2n-1) 选取奇数标签，等同于:nth-child(odd)
 
-![img](D:\work1\macdown-doc\1442391-20180831155330398-201533064.png)
+![img](1442391-20180831155330398-201533064.png)
 
 6、:nth-child(3n+1) 每隔两个元素选取一个
 
-![img](D:\work1\macdown-doc\1442391-20180831155501359-1375398252.png)
+![img](1442391-20180831155501359-1375398252.png)
 
 7、:last-child 选取倒数第一个
 
-![img](D:\work1\macdown-doc\1442391-20180831155931087-1973090871.png)
+![img](1442391-20180831155931087-1973090871.png)
 
 8、:nth-last-child(3) 选取倒数第三个
 
-![img](D:\work1\macdown-doc\1442391-20180831160046040-1719332621.png)
+![img](1442391-20180831160046040-1719332621.png)
 
 
 
@@ -764,13 +764,7 @@ border-image:url(border.png) 30 30 round;
 
 -o-border-image:url(border.png) 30 30 round; /* Opera */
 
- 
 
-![img](file:///C:\Users\zhy\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
-
- 
-
- 
 
 \#stretch 定位四角拉伸
 
