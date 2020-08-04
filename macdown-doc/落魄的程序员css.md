@@ -877,7 +877,7 @@ direction 角度
 
 <img src="images/image-20200731170916606.png"  align=center alt="image-20200731170916606" style="zoom:30%;" />
 
-```
+```css
 <style>
     * {
         margin: 0, 0;
@@ -1146,7 +1146,7 @@ stretch  默认 如果项目未设置高度或设置为auth  ，将占满整个�
 
 align-self: auto|stretch|center|flex-start|flex-end|baseline|initial|inherit;
 
-## 属性值
+##### 属性值
 
 | 值         | 描述                                                         |      |
 | :--------- | :----------------------------------------------------------- | :--- |
