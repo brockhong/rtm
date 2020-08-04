@@ -377,7 +377,7 @@ bezier
 在animation和transition两个属性中，cubic-bezier是控制变化的速度曲线。
  `cubic-bezier(<x1>,<y1>,<x2>,<y2>)`
 
-![img](https:////upload-images.jianshu.io/upload_images/8433797-232b8c5fa49127e9.png?imageMogr2/auto-orient/strip|imageView2/2/w/366/format/webp)
+![img](images\8433797-232b8c5fa49127e9.png)
 
 
 
