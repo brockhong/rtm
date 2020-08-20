@@ -14,11 +14,11 @@ password: xxx                           //远程服务器密码
 
 port: 22                                       //远程登录端口
 
-![image-20200820151525773](deployment\image-20200820151525773.png)
+![image-20200820151525773](deployment/image-20200820151525773.png)
 
 #### 部署服务器 key
 
-![image-20200820152757511](deployment\image-20200820152757511.png)
+![image-20200820152757511](deployment/image-20200820152757511.png)
 
 
 
@@ -28,21 +28,21 @@ port: 22                                       //远程登录端口
 
 jenkins中安装maven
 
-![image-20200820155010252](deployment\image-20200820155010252.png)
+![image-20200820155010252](deployment/image-20200820155010252.png)
 
 #### nodejs
 
 jenkins中安装nodejs
 
-![image-20200820155032247](deployment\image-20200820155032247.png)
+![image-20200820155032247](deployment/image-20200820155032247.png)
 
 #### jdk配置
 
-![image-20200820155057938](deployment\image-20200820155057938.png)
+![image-20200820155057938](deployment/image-20200820155057938.png)
 
 #### git配置
 
-![image-20200820155121660](deployment\image-20200820155121660.png)
+![image-20200820155121660](deployment/image-20200820155121660.png)
 
 
 
@@ -56,11 +56,11 @@ jenkins中安装nodejs
 
 项目角色 project roles ,分为 测试 test_  、pre_  、online_
 
-![image-20200820153145503](deployment\image-20200820153145503.png)
+![image-20200820153145503](deployment/image-20200820153145503.png)
 
 部署名称  test_ 开头
 
-![image-20200820153541183](deployment\image-20200820153541183.png)
+![image-20200820153541183](deployment/image-20200820153541183.png)
 
 
 
@@ -68,11 +68,11 @@ jenkins中安装nodejs
 
 全局角色(全局角色添加用户)
 
-![image-20200820154012511](deployment\image-20200820154012511.png)
+![image-20200820154012511](deployment/image-20200820154012511.png)
 
 item角色 （项目角色添加用户）
 
-![image-20200820154244666](deployment\image-20200820154244666.png)
+![image-20200820154244666](deployment/image-20200820154244666.png)
 
 
 
@@ -82,7 +82,7 @@ item角色 （项目角色添加用户）
 
 
 
-![img](deployment\clip_image004.jpg)
+![img](deployment/clip_image004.jpg)
 
  
 
@@ -92,21 +92,21 @@ item角色 （项目角色添加用户）
 
 #### 源码
 
-![image-20200820155527901](deployment\image-20200820155527901.png)
+![image-20200820155527901](deployment/image-20200820155527901.png)
 
 #### 构建环境
 
-![img](deployment\clip_image008.jpg)
+![img](deployment/clip_image008.jpg)
 
  
 
 #### 构建
 
-![img](deployment\clip_image010.jpg)
+![img](deployment/clip_image010.jpg)
 
 #### 构建后
 
-![img](deployment\clip_image012.jpg)
+![img](deployment/clip_image012.jpg)
 
 
 
@@ -114,25 +114,25 @@ item角色 （项目角色添加用户）
 
 #### 新建项目
 
-![image-20200820155749420](deployment\image-20200820155749420.png)
+![image-20200820155749420](deployment/image-20200820155749420.png)
 
 #### 一般设置
 
-![image-20200820155851189](deployment\image-20200820155851189.png)
+![image-20200820155851189](deployment/image-20200820155851189.png)
 
 #### 码源设置
 
-![image-20200820155929863](deployment\image-20200820155929863.png)
+![image-20200820155929863](deployment/image-20200820155929863.png)
 
 #### 打包设置
 
 清除部署包，重新打包
 
-![image-20200820160030771](deployment\image-20200820160030771.png)
+![image-20200820160030771](deployment/image-20200820160030771.png)
 
 #### 构建后操作
 
-![image-20200820160309924](deployment\image-20200820160309924.png)
+![image-20200820160309924](deployment/image-20200820160309924.png)
 
 脚本
 
